@@ -1,0 +1,277 @@
+name: flutter_ui_kit
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 6.0.0+2
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+  cupertino_icons: ^1.0.2
+  get_it: ^6.0.0
+  provider: ^5.0.0
+  connectivity: ^3.0.3
+  dio: ^4.0.0-prev2
+  http: ^0.13.1
+  freezed: ^0.14.1
+  shared_preferences: ^2.0.5
+  fancy_bottom_navigation: ^0.3.3
+  carousel_slider: ^4.0.0-nullsafety.0
+  flutter_staggered_grid_view: ^0.4.0-nullsafety.3
+  shimmer: ^2.0.0-nullsafety.0
+  url_launcher: ^6.0.2
+  image_picker: ^0.7.4
+  webview_flutter: ^2.0.2
+  share: ^2.0.1
+  photo_view: ^0.11.1
+  package_info: ^2.0.0
+  firebase_core: ^1.0.1
+  firebase_messaging: ^9.0.0
+  geocoding:
+  flutter_local_notifications: ^5.0.0-nullsafety.1
+  path_provider: ^2.0.1
+  flutter_html: ^2.0.0-nullsafety.0
+  permission_handler:
+  flutter_spinkit: ^5.0.0
+  background_location:
+  geolocator:
+  flutter_sparkline: ^0.1.0
+  intl: ^0.17.0 # for localization
+  syncfusion_flutter_charts:
+  syncfusion_flutter_gauges:
+  folding_cell: ^1.0.2
+  numeric_keyboard: ^1.1.0 #otp confirmation screen
+  circular_bottom_navigation: ^1.0.1 #dashboard screen
+  flutter_svg: ^0.21.0+1 #dashboard screen
+  lite_rolling_switch: ^0.1.1
+  google_maps_flutter: ^2.0.3 #select destination screen
+  expandable_bottom_sheet: ^1.0.0+2 #select destination screen
+  gradient_text: ^1.0.2 # for Splash Gradient
+  country_code_picker: ^2.0.1 # for country picker with image and dial code
+  ola_like_country_picker: ^0.1.2
+  pin_code_fields: ^7.0.0 # for Phone Verification
+  curved_navigation_bar: ^0.3.7 # for Buttom Navigation
+  persistent_bottom_nav_bar: ^4.0.2 # for Bottom nav bar
+  language_pickers: ^0.2.0+1 # for Language Picker
+  data_connection_checker: ^0.3.4
+  flutter_polyline_points: ^0.2.6
+  geocoder: ^0.2.1
+  flutter_tindercard: ^0.2.0 # for Dating App Home ListView
+  pinch_zoom: ^0.1.0
+  flutter_xlider: ^3.4.0
+  slider_button: ^0.6.0
+  flutter_pull_to_refresh: ^1.0.1
+  flutter_sticky_header: ^0.6.0
+  flutter_switch: ^0.3.0
+  font_awesome_flutter: ^9.0.0
+  fluttertoast: ^8.0.3
+  another_flushbar: ^1.10.17
+  bottom_navy_bar: ^6.0.0
+  modal_bottom_sheet: ^2.0.0
+  wave: ^0.2.0
+  liquid_progress_indicator: ^0.3.2
+  marquee_widget: ^1.0.0
+  liquid_swipe: ^2.1.0
+  before_after: ^2.1.0
+  flutter_colorpicker: ^0.4.0
+  animations: ^2.0.0
+  showcaseview: ^0.1.6
+  pull_to_refresh: ^1.6.4
+  signature: ^4.0.2
+  flutter_speed_dial: ^3.0.5
+  cloud_firestore: ^1.0.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/language/
+    - assets/food/images/
+    - assets/grocery/icon/
+    - assets/grocery/images/
+    - assets/grocery/category/
+    - assets/food/icon/
+    - assets/food/svg/
+    - assets/doctor/images/
+    - assets/doctor/Image/
+    - assets/doctor/Icon/
+    - assets/wallet/Icon/
+    - assets/wallet/Illustration/
+    - assets/wallet/fonts/
+    - assets/screen/images/
+    - assets/screen/icon/
+    - assets/rideshare/images/
+    - assets/dating_app/icon/
+    - assets/dating_app/images/
+    - assets/household/icon/
+    - assets/household/images/
+    - assets/household/svg/
+    - assets/academy/images/
+    - assets/academy/icon/
+    - assets/logo.jpg
+    - assets/sixvalley/fonts/titillium/
+    - assets/sixvalley/images/
+    - assets/sixvalley/language/
+    - assets/restaurant/language/
+    - assets/restaurant/icon/
+    - assets/restaurant/image/
+    - assets/main_app/app_icon/
+    - assets/main_app/drawer/
+    - assets/main_app/liquid_swipe/
+    - assets/
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: GothamRounded
+      fonts:
+        - asset: assets/food/fonts/GothamRounded-Bold.ttf
+        - asset: assets/food/fonts/GothamRounded-Book.ttf
+        - asset: assets/food/fonts/GothamRounded-Light.ttf
+        - asset: assets/food/fonts/GothamRounded-Medium.ttf
+
+    - family: Muli
+      fonts:
+        - asset: assets/food/fonts/Muli.ttf
+        - asset: assets/food/fonts/Muli-Bold.ttf
+        - asset: assets/food/fonts/Muli-BoldItalic.ttf
+        - asset: assets/food/fonts/Muli-ExtraLight.ttf
+        - asset: assets/food/fonts/Muli-ExtraLightItalic.ttf
+        - asset: assets/food/fonts/Muli-Italic.ttf
+        - asset: assets/food/fonts/Muli-Light.ttf
+        - asset: assets/food/fonts/Muli-LightItalic.ttf
+        - asset: assets/food/fonts/Muli-Semi-BoldItalic.ttf
+        - asset: assets/food/fonts/Muli-SemiBold.ttf
+
+    - family: Khula
+      fonts:
+        - asset: assets/doctor/fonts/Khula-Bold.ttf
+        - asset: assets/doctor/fonts/Khula-ExtraBold.ttf
+        - asset: assets/doctor/fonts/Khula-Light.ttf
+        - asset: assets/doctor/fonts/Khula-Regular.ttf
+        - asset: assets/doctor/fonts/Khula-SemiBold.ttf
+
+    - family: IBM
+      fonts:
+        - asset: assets/screen/fonts/IBMPlexSans-Bold.ttf
+        - asset: assets/screen/fonts/IBMPlexSans-Medium.ttf
+        - asset: assets/screen/fonts/IBMPlexSans-SemiBold.ttf
+
+
+    - family: montserrat
+      fonts:
+        - asset: assets/wallet/fonts/Montserrat-Bold.ttf
+        - asset: assets/wallet/fonts/Montserrat-Regular.ttf
+        - asset: assets/wallet/fonts/Montserrat-SemiBold.ttf
+
+    - family: poppins
+      fonts:
+        - asset: assets/wallet/fonts/Poppins-Bold.ttf
+        - asset: assets/wallet/fonts/Poppins-Medium.ttf
+        - asset: assets/wallet/fonts/Poppins-SemiBold.ttf
+        - asset: assets/wallet/fonts/Poppins-Medium.ttf
+
+    - family: roboto
+      fonts:
+        - asset: assets/dating_app/fonts/Roboto-Black.ttf
+        - asset: assets/dating_app/fonts/Roboto-Bold.ttf
+        - asset: assets/dating_app/fonts/Roboto-Light.ttf
+        - asset: assets/dating_app/fonts/Roboto-Medium.ttf
+        - asset: assets/dating_app/fonts/Roboto-Regular.ttf
+
+    - family: manrope
+      fonts:
+        - asset: assets/household/fonts/Manrope-ExtraLight.ttf
+          weight: 200
+        - asset: assets/household/fonts/Manrope-Light.ttf
+          weight: 300
+        - asset: assets/household/fonts/Manrope-Regular.ttf
+          weight: 400
+        - asset: assets/household/fonts/Manrope-Medium.ttf
+          weight: 500
+        - asset: assets/household/fonts/Manrope-SemiBold.ttf
+          weight: 600
+        - asset: assets/household/fonts/Manrope-Bold.ttf
+          weight: 700
+        - asset: assets/household/fonts/Manrope-ExtraBold.ttf
+          weight: 800
+
+    - family: Avenir
+      fonts:
+        - asset: assets/academy/fonts/Avenir-Heavy.ttf
+          weight: 700
+        - asset: assets/academy/fonts/Avenir-Medium.ttf
+          weight: 500
+
+    - family: TitilliumWeb
+      fonts:
+        - asset: assets/sixvalley/fonts/titillium/TitilliumWeb-Regular.ttf
+        - asset: assets/sixvalley/fonts/titillium/TitilliumWeb-Italic.ttf
+        - asset: assets/sixvalley/fonts/titillium/TitilliumWeb-SemiBold.ttf
+          weight: 600
+        - asset: assets/sixvalley/fonts/titillium/TitilliumWeb-Bold.ttf
+          weight: 700
+
+    - family: Rubik
+      fonts:
+        - asset: assets/restaurant/fonts/Rubik-Regular.ttf
+          weight: 400
+        - asset: assets/restaurant/fonts/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/restaurant/fonts/Rubik-Bold.ttf
+          weight: 700
+
+
+
+
+
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

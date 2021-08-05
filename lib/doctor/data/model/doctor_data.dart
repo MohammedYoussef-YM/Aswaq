@@ -1,0 +1,508 @@
+import 'package:flutter_ui_kit/doctor/data/model/doctor.dart';
+import 'package:flutter_ui_kit/doctor/utility/images.dart';
+import 'package:flutter_ui_kit/doctor/utility/strings.dart';
+
+class DoctorData {
+
+  static List<Doctor> allDoctorList = [
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_NATIONAL_HEART_CENTER,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl:Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.CONSULTANT_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_NATIONAL_HEART_CENTER,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.CONSULTANT_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+  ];
+
+
+  static List<Doctor> cardioDoctorList = [
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_NATIONAL_HEART_CENTER,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.CONSULTANT_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_NATIONAL_HEART_CENTER,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.CONSULTANT_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+  ];
+
+
+  static List<Doctor> heartDoctorList = [
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_NATIONAL_HEART_CENTER,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.CONSULTANT_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_NATIONAL_HEART_CENTER,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.CONSULTANT_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+  ];
+
+
+  static List<Doctor> mentalDoctorList = [
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_NATIONAL_HEART_CENTER,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.CONSULTANT_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_NATIONAL_HEART_CENTER,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.CONSULTANT_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+  ];
+
+
+  static List<Doctor> dentalDoctorList = [
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_NATIONAL_HEART_CENTER,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.CONSULTANT_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_NATIONAL_HEART_CENTER,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.CARDIO_SURGEON_NATIONAL_CARDILOGY_CARE,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.DENTIST_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+    Doctor(
+      imageUrl: Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.CONSULTANT_NATIONAL_DENTAL_AND,
+      review: Strings.REVIEW_4,
+      condition: Strings.AVAILABLE,
+    ),
+  ];
+
+  static List<Doctor> topDoctorList=[
+    Doctor(
+      imageUrl:Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_SPACIALIST,
+    ),
+    Doctor(
+      imageUrl:Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON,
+    ),
+    Doctor(
+      imageUrl:Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST,
+    ),
+    Doctor(
+      imageUrl:Images.doctor_four,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_SPACIALIST,
+    ),
+    Doctor(
+      imageUrl:Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_SPACIALIST,
+    ),
+    Doctor(
+      imageUrl:Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON,
+    ),
+    Doctor(
+      imageUrl:Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST,
+    ),
+    Doctor(
+      imageUrl:Images.doctor_four,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_SPACIALIST,
+    ),
+    Doctor(
+      imageUrl:Images.doctor_one,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_SPACIALIST,
+    ),
+    Doctor(
+      imageUrl:Images.doctor_two,
+      name: Strings.DOCTOR_NAME2,
+      designation: Strings.CARDIO_SURGEON,
+    ),
+    Doctor(
+      imageUrl:Images.doctor_three,
+      name: Strings.DOCTOR_NAME3,
+      designation: Strings.DENTIST,
+    ),
+    Doctor(
+      imageUrl:Images.doctor_four,
+      name: Strings.DOCTOR_NAME1,
+      designation: Strings.HEART_SURGEON_SPACIALIST,
+    ),
+  ];
+}

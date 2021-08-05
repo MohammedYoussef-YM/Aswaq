@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "101681330628",
+    "firebase_url": "https://am-uikit.firebaseio.com",
+    "project_id": "am-uikit",
+    "storage_bucket": "am-uikit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101681330628:android:a8a7d8172c7311e9db8c91",
+        "android_client_info": {
+          "package_name": "com.sixamtech.flutter_ui_kit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101681330628-d9j3efo0l1dprdq3i9p2fph96j1gjdgv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBORH1gLomj365UaFEHHIyXsZ0UUlvscH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101681330628-d9j3efo0l1dprdq3i9p2fph96j1gjdgv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101681330628:android:4c27e971c9bd2bdedb8c91",
+        "android_client_info": {
+          "package_name": "com.sixamtech.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101681330628-d9j3efo0l1dprdq3i9p2fph96j1gjdgv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBORH1gLomj365UaFEHHIyXsZ0UUlvscH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101681330628-d9j3efo0l1dprdq3i9p2fph96j1gjdgv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
